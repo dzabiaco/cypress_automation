@@ -1,0 +1,20 @@
+{
+  "name": "udemy_tuts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test --headed",
+    "chromeTest": "npm run test --browser chrome",
+    "recordDashboard": "npm run test --record --key 0d5f1dcb-6ec9-4bd2-9a1e-40e21a973ddb --reporter mochawesome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^4.0.1"
+  }
+}
